@@ -40,6 +40,9 @@ with open('/home/alienum/Desktop/emails.txt') as users:
              
 ┌──(alienum㉿kali)-[~]
 └─$ python3 neobank-bf.py
+~~~~~~~~~~~~~~~~~~~
+Credentials found!!
+~~~~~~~~~~~~~~~~~~~
 [+] Username : z***@neobank.vln
 [+] Password : 2*****
 ```
